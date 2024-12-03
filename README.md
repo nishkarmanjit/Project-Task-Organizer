@@ -110,4 +110,40 @@ Task-Organizer/
    ```bash
    git clone https://github.com/username/Task-Organizer.git
    cd Task-Organizer
+Task-Organizer/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   │   ├── TaskList.js
+│   │   ├── AddTaskForm.js
+│   │   ├── TaskItem.js
+│   ├── styles/
+│   │   ├── styles.css
+│   ├── App.js
+│   ├── index.js
+├── package.json
+├── README.md
+
+## User Interface Design
+
+### Navigation Flow
+- **Main Screen**: Displays a list of tasks.
+- **Add Task**: Opens a form to input task details.
+- **View Task**: Shows task details, including status and deadline.
+- **Edit Task**: Enables modification of task details.
+- **Delete Task**: Removes tasks from the list.
+
+---
+
+## Quick Start
+
+### Prerequisites
+- Node.js installed on your machine.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Task-Organizer.git
+   cd Task-Organizer
 
