@@ -73,3 +73,18 @@ The Task Organizer app is designed to:
 ---
 
 ## Folder Structure
+```plaintext
+Task-Organizer/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   │   ├── TaskList.js
+│   │   ├── AddTaskForm.js
+│   │   ├── TaskItem.js
+│   ├── styles/
+│   │   ├── styles.css
+│   ├── App.js
+│   ├── index.js
+├── package.json
+├── README.md
